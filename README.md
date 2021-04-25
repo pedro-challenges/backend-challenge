@@ -1,14 +1,6 @@
-# Getaround EU Challenges (previously Drivy)
+# Pedro Bernardes - challange resolution
 
-If you want to join the engineering team, you will most likely
-have to complete one of our code challenges:
+For each level, calling main.rb or main.py will generate data/output.json from data/input.json.
 
-- [Backend](https://github.com/drivy/jobs/tree/master/backend)
-- [Frontend](https://github.com/drivy/jobs/tree/master/frontend)
-- [Data](https://github.com/drivy/jobs/tree/master/data)
-- [Reliability](https://github.com/drivy/jobs/tree/master/reliability)
-- [Android](https://github.com/drivy/jobs/tree/master/android)
-
-In order to learn more about [Getaround](https://www.getaround.com/),
-you can head over our [engineering blog](https://drivy.engineering/)
-or check out [the currently open positions](https://uk.getaround.com/jobs).
+Running "pytest test.py" in each level folder allows to compare expected_ouput with program output. 
+Running "pytest test.py" in backend folder compares all levels to corresponding expected_output.
